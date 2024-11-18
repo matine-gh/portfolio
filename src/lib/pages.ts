@@ -4,27 +4,27 @@ const pages: Page[] = [
   new Page({
     title: "Home",
     path: "/",
-    coverImageSrc: "/images/about-cover.jpg",
+    coverSrc: "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
   }),
   new Page({
     title: "About Me",
     path: "/about",
-    coverImageSrc: "/images/about-cover.jpg",
+    coverSrc: "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
   }),
   new Page({
     title: "Contact Me",
     path: "/contact",
-    coverImageSrc: "/images/contact-cover.jpg",
+    coverSrc: "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
   }),
   new Page({
     title: "Skills",
     path: "/skills",
-    coverImageSrc: "/images/skills-cover.jpg",
+    coverSrc: "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
   }),
   new Page({
     title: "Projects",
     path: "/projects",
-    coverImageSrc: "/images/projects-cover.jpg",
+    coverSrc: "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
   }),
 ];
 export default pages;

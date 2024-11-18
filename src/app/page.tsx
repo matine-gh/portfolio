@@ -1,7 +1,5 @@
+import Home from "@/components/Home";
 
-
-export default function Home() {
-  return (
-    <p>APPP</p>
-  );
+export default function HomePage() {
+  return <Home />;
 }
