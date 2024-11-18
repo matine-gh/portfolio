@@ -1,5 +1,4 @@
 import Page from "./page";
-
 const pages: Page[] = [
   new Page({
     title: "Home",
@@ -9,7 +8,7 @@ const pages: Page[] = [
   new Page({
     title: "About Me",
     path: "/about",
-    coverSrc: "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
+    coverSrc: "/Images/about.png",
   }),
   new Page({
     title: "Contact Me",
@@ -19,7 +18,7 @@ const pages: Page[] = [
   new Page({
     title: "Skills",
     path: "/skills",
-    coverSrc: "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
+    coverSrc: "/Images/skills.png",
   }),
   new Page({
     title: "Projects",
