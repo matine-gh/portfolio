@@ -1,4 +1,5 @@
-import Page from "./page";
+import Page from "@/lib/page";
+
 const pages: Page[] = [
   new Page({
     title: "Home",
@@ -13,7 +14,7 @@ const pages: Page[] = [
   new Page({
     title: "Contact Me",
     path: "/contact",
-    coverSrc: "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
+    coverSrc: "Images/contact.png",
   }),
   new Page({
     title: "Skills",
@@ -23,7 +24,7 @@ const pages: Page[] = [
   new Page({
     title: "Projects",
     path: "/projects",
-    coverSrc: "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
+    coverSrc: "Images/projects.png",
   }),
 ];
 export default pages;
