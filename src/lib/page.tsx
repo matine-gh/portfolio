@@ -20,7 +20,11 @@ class Page {
     this.coverSrc = input.coverSrc;
     this.label = <Link href={this.path}>{this.title}</Link>;
     this.cover = (
-      <img alt={`${this.title} Page Cover Image`} src={input.coverSrc} />
+      <img
+        alt={`${this.title} Page Cover Image`}
+        src={input.coverSrc}
+        height={200}
+      />
     );
     this.key = input.title;
   }
