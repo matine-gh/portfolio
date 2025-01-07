@@ -4,7 +4,7 @@ import { Button, Layout } from "antd";
 export default function MyFooter() {
   const { Footer } = Layout;
   return (
-    <Footer style={{ textAlign: "center" }}>
+    <Footer className={"text-center w-full"}>
       ©{new Date().getFullYear()} Matineh Ghazanfari. All Rights Reserved.
       <p>
         Looking to get in touch?{" "}
