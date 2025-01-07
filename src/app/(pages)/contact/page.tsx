@@ -1,3 +1,5 @@
+import Contact from "@/components/Contact";
+
 export default function ContactMePage() {
-  return <p>ContactMePage</p>;
+  return <Contact />;
 }
