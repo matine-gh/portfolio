@@ -1,30 +1,30 @@
-import Page from "@/lib/page";
+import { Section } from "@/types/common";
 
-const pages: Page[] = [
-  new Page({
+const sections: Section[] = [
+  {
     title: "Home",
     path: "/",
     coverSrc: "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
-  }),
-  new Page({
+  },
+  {
     title: "About Me",
-    path: "/about",
+    path: "#about",
     coverSrc: "/Images/about.png",
-  }),
-  new Page({
+  },
+  {
     title: "Contact Me",
-    path: "/contact",
+    path: "#contact",
     coverSrc: "Images/contact.png",
-  }),
-  new Page({
+  },
+  {
     title: "Skills",
-    path: "/skills",
+    path: "#skills",
     coverSrc: "/Images/skills.png",
-  }),
-  new Page({
+  },
+  {
     title: "Projects",
-    path: "/projects",
+    path: "#projects",
     coverSrc: "Images/projects.png",
-  }),
+  },
 ];
-export default pages;
+export default sections;
