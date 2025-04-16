@@ -1,10 +1,8 @@
 import React, { ReactNode } from "react";
 
-export interface Page {
-  // title: string;
+export interface Section {
+  title: string;
   path: string;
-  // coverSrc: string;
-  cover: ReactNode;
-  label: ReactNode;
-  key: React.Key;
+  coverSrc: string;
+  label?: ReactNode;
 }
