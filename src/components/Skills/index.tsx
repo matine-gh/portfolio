@@ -1,19 +1,14 @@
 import { Card, Flex, Progress } from "antd";
 import { FaCss3Alt, FaReact } from "react-icons/fa";
-import {
-  SiAntdesign,
-  SiMui,
-  SiNextdotjs,
-  SiRedux,
-  SiReduxsaga,
-} from "react-icons/si";
+import { SiAntdesign, SiMui, SiRedux, SiReduxsaga } from "react-icons/si";
 import { TbBrandNextjs, TbBrandSass, TbBrandTypescript } from "react-icons/tb";
 import { RiJavascriptLine, RiTailwindCssFill } from "react-icons/ri";
 import { BiLogoTypescript } from "react-icons/bi";
 import { IoLogoJavascript } from "react-icons/io";
 export default function Skills() {
   return (
-    <>
+    <section id={"skills"} className={"bg-pink-200"}>
+      <h1>Skills</h1>
       <Card>
         <h3>State Management</h3>
         <Flex>
@@ -139,6 +134,6 @@ export default function Skills() {
           />
         </Flex>
       </Card>
-    </>
+    </section>
   );
 }

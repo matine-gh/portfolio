@@ -4,7 +4,7 @@ import { Button, Layout } from "antd";
 export default function MyFooter() {
   const { Footer } = Layout;
   return (
-    <Footer className={"text-center w-full"}>
+    <Footer className={"text-center w-full fixed bottom-0"}>
       ©{new Date().getFullYear()} Matineh Ghazanfari. All Rights Reserved.
       <p>
         Looking to get in touch?{" "}

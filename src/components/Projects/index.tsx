@@ -1,8 +1,8 @@
-export default function About() {
+export default function Projects() {
   return (
-    <section id="about">
-      <h1 className={"font-extrabold"}>About Me</h1>
-      <p className={"bg-blue-600"}>
+    <section id="projects">
+      <h1>Projects</h1>
+      <p className={"bg-purple-200"}>
         Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus
         ex sapien vitae pellentesque sem placerat. In id cursus mi pretium
         tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.
@@ -68,7 +68,6 @@ export default function About() {
         semper vel class aptent taciti sociosqu. Ad litora torquent per conubia
         nostra inceptos himenaeos.
       </p>
-      {/*<Image src={"/Images/me.jpg"} alt={"my image"} />*/}
     </section>
   );
 }

@@ -1,11 +1,11 @@
 import Image from "next/image";
-import { Col, Flex, Row } from "antd";
+import { Col, Row } from "antd";
 import { FaGithub, FaLinkedin, FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 export default function Contact() {
   return (
-    <Flex className={"w-full h-full"} justify="space-between">
+    <section id="contact" className={"w-full h-full flex justify-between"}>
       <div>
         <h1>Contact me</h1>
         <Row>
@@ -40,6 +40,6 @@ export default function Contact() {
         height={400}
         className={"w-auto opacity-30"}
       />
-    </Flex>
+    </section>
   );
 }
